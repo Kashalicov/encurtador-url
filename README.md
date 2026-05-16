@@ -87,7 +87,7 @@ docker compose up --build
 ## ✅ Testes
 
 ```bash
-pytest tests/ -v
+python -m pytest tests/ -v
 ```
 
 Os testes rodam automaticamente a cada push/PR via GitHub Actions (veja o badge de CI no topo deste README).
