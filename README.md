@@ -10,8 +10,8 @@
 
 ## 🔗 Links
 
-- 🚀 **Deploy:** [link aqui](#)
-- 📖 **Documentação interativa (Swagger):** `/docs` na URL do deploy
+- 🚀 **Deploy:** [encurtador-url-api-5txq.onrender.com](https://encurtador-url-api-5txq.onrender.com)
+- 📖 **Documentação interativa (Swagger):** [encurtador-url-api-5txq.onrender.com/docs](https://encurtador-url-api-5txq.onrender.com/docs)
 
 > ⚠️ O backend está hospedado no plano gratuito do Render — a instância "dorme" após um tempo sem uso. A primeira requisição após a inatividade pode levar até ~50 segundos para responder.
 
