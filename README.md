@@ -6,7 +6,7 @@
 ![python](https://img.shields.io/badge/python-3.12-blue)
 ![fastapi](https://img.shields.io/badge/fastapi-0.110-009688)
 ![ci](https://github.com/Kashalicov/encurtador-url/actions/workflows/ci.yml/badge.svg)
-![license](https://img.shields.io/badge/license-MIT-blue)
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## 🔗 Links
 
