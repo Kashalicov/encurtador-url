@@ -10,10 +10,10 @@
 
 ## 🔗 Links
 
-- 🚀 **Deploy:** [encurtador-url-api-5txq.onrender.com](https://encurtador-url-api-5txq.onrender.com)
-- 📖 **Documentação interativa (Swagger):** [encurtador-url-api-5txq.onrender.com/docs](https://encurtador-url-api-5txq.onrender.com/docs)
+- 🚀 **Deploy:** [encurtador-url.shardweb.app](https://encurtador-url.shardweb.app)
+- 📖 **Documentação interativa (Swagger):** [encurtador-url.shardweb.app/docs](https://encurtador-url.shardweb.app/docs)
 
-> ⚠️ O backend está hospedado no plano gratuito do Render. Um workflow no GitHub Actions faz um ping a cada 10 min para manter a instância acordada, mas a primeira requisição ainda pode ocasionalmente levar alguns segundos a mais para responder.
+> Hospedado na Shard Cloud, sempre ativo (sem cold start).
 
 ## 🧠 Sobre o projeto
 
@@ -37,7 +37,7 @@ Usei esse projeto para praticar um stack Python mais moderno (FastAPI + SQLModel
 ## 🛠️ Tecnologias
 
 - Python 3.12 + FastAPI
-- SQLModel (SQLAlchemy + Pydantic) + SQLite
+- SQLModel (SQLAlchemy + Pydantic) + SQLite (local) / PostgreSQL (produção, via `DATABASE_URL` e `DB_SCHEMA` opcional)
 - Pytest + `TestClient` (testes de integração com banco em memória)
 - Docker + docker-compose
 - GitHub Actions (CI rodando os testes a cada push/PR)
