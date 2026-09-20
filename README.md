@@ -10,10 +10,10 @@
 
 ## 🔗 Links
 
-- 🚀 **Deploy:** [encurtador-url.shardweb.app](https://encurtador-url.shardweb.app)
-- 📖 **Documentação interativa (Swagger):** [encurtador-url.shardweb.app/docs](https://encurtador-url.shardweb.app/docs)
+- 🚀 **Deploy:** [encurtador-url-api-5txq.onrender.com](https://encurtador-url-api-5txq.onrender.com)
+- 📖 **Documentação interativa (Swagger):** [encurtador-url-api-5txq.onrender.com/docs](https://encurtador-url-api-5txq.onrender.com/docs)
 
-> Hospedado na Shard Cloud, sempre ativo (sem cold start).
+> ⚠️ O backend está hospedado no plano gratuito do Render. Um workflow no GitHub Actions faz um ping a cada 10 min para manter a instância acordada, mas a primeira requisição ainda pode ocasionalmente levar alguns segundos a mais para responder.
 
 ## 🧠 Sobre o projeto
 
